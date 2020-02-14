@@ -1,5 +1,5 @@
 # Conway's Game of Life
-import random, time, copy
+import random, time, copy, sys
 WIDTH = 60
 HEIGHT = 20
 
@@ -23,7 +23,7 @@ while True: # Main program loop.
         for x in range(WIDTH):
             print(currentCells[x][y], end='') # Print the # or space.
         print() # Print a newline at the end of the row.
-
+   
     # Calculate the next step's cells based on current step's cells:
     for x in range(WIDTH):
         for y in range(HEIGHT):
