@@ -1,0 +1,14 @@
+[[package]]
+category = "main"
+description = "A cross-platform clipboard module for Python. (Only handles plain text for now.)"
+name = "pyperclip"
+optional = false
+python-versions = "*"
+version = "1.7.0"
+
+[metadata]
+content-hash = "81251f3f9bd67325ad2467907e41337bc87267ed8e4b8c3cec3a7adbff9c5188"
+python-versions = "^3.7"
+
+[metadata.hashes]
+pyperclip = ["979325468ccf682104d5dcaf753f869868100631301d3e72f47babdea5700d1c"]
